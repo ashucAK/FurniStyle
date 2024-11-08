@@ -1,0 +1,45 @@
+<!-- Import Google Fonts for Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    /* Apply the Poppins font to the entire section */
+    .about-section {
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+<section class="about-section relative flex items-center justify-center w-full bg-white p-8 sm:p-16 md:p-24">
+    <!-- Background Color -->
+    <div class="absolute inset-0 w-full h-full bg-green-100 rounded-lg shadow-lg"></div>
+
+    <!-- Content Wrapper with Floating Shadow Effect -->
+    <div class="relative z-10 flex flex-col md:flex-row items-center justify-between bg-white bg-opacity-90 rounded-2xl shadow-2xl p-8 sm:p-14 md:p-20 lg:p-24 max-w-6xl mx-auto space-y-8 md:space-y-0 md:space-x-12">
+        
+        <!-- Left Image Section -->
+        <div class="w-full md:w-1/2 mb-8 md:mb-0 flex justify-center items-center">
+            <div class="relative w-full max-w-md h-80 sm:h-96 md:h-[30rem] lg:h-[35rem] p-4 border-4 border-green-200 rounded-xl shadow-xl">
+                <img src="/PHP_Project-main/assets/about_img.jpg" alt="About Us - Craftsmanship" class="rounded-lg w-full h-full object-cover transition-transform transform hover:scale-105 duration-500 ease-in-out shadow-lg">
+            </div>
+        </div>
+        
+        <!-- Right Text Section -->
+        <div class="w-full md:w-1/2 text-gray-800 space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-snug sm:leading-tight tracking-tight">
+                About <span class="text-green-700">FurniStyle</span>
+            </h2>
+            <p class="text-gray-700 text-lg sm:text-xl">
+                At FurniStyle, we believe that your home should be a reflection of your personality. Our team is passionate about curating furniture that combines style, quality, and functionality, allowing you to create spaces that feel uniquely yours.
+            </p>
+            <p class="text-gray-700 text-lg sm:text-xl">
+                We are committed to sustainable practices and work with craftsmen who pour their heart and skill into every piece. With designs inspired by global trends and timeless classics, our furniture transforms your space into a haven of comfort and elegance.
+            </p>
+            
+            <!-- Separate Container for Button with Enhanced Styling -->
+            <div class="mt-10">
+                <a href="#feature" class="bg-green-700 text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-lg sm:text-xl font-semibold shadow-lg hover:bg-green-800 transition duration-300 ease-in-out">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
